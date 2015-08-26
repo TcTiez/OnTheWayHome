@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" >
+
+    <!-- main -->
+    <FrameLayout
+        android:id="@+id/baseFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <!-- wirte here, if add side menu -->
+
+    <!-- popup -->
+    <FrameLayout
+        android:id="@+id/basePopupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000"
+        android:padding="15dp"
+        android:visibility="gone" >
+    </FrameLayout>
+
+    <!-- progress popup -->
+    <FrameLayout
+        android:id="@+id/baseProgressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000"
+        android:visibility="gone" >
+    </FrameLayout>
+
+    <!-- gray screen, progress bar -->
+    <FrameLayout
+        android:id="@+id/progress_basedark_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</FrameLayout>

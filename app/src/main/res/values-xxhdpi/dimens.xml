@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- xxhdpi, px to dp -->
+    <dimen name="xxh_21px">7dp</dimen>
+    <dimen name="xxh_45px">15dp</dimen>
+    <dimen name="xxh_60px">20dp</dimen>
+    <dimen name="xxh_80px">26.67dp</dimen>
+    <dimen name="xxh_90px">30dp</dimen>
+    <dimen name="xxh_100px">33.33dp</dimen>
+    <dimen name="xxh_156px">52dp</dimen>
+    <dimen name="xxh_189px">63dp</dimen>
+    <dimen name="xxh_200px">66.67dp</dimen>
+    <dimen name="xxh_280px">93.33dp</dimen>
+    <dimen name="xxh_300px">100dp</dimen>
+    <dimen name="xxh_400px">133.33dp</dimen>
+    <dimen name="xxh_600px">200dp</dimen>
+
+</resources>

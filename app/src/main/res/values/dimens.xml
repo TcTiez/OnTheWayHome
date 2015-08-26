@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common, font size, pt to sp -->
+    <dimen name="font_size_50pt">17sp</dimen>
+    <dimen name="font_size_100pt">34sp</dimen>
+
+</resources>

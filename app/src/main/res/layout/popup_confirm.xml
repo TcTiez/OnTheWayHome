@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" >
+
+   <RelativeLayout
+        android:layout_margin="@dimen/xxh_100px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:drawable/dialog_holo_light_frame">
+
+        <FrameLayout
+            android:id="@+id/confirm_title_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/xxh_90px"
+            android:paddingTop="@dimen/xxh_80px"
+            android:paddingRight="@dimen/xxh_90px">
+
+            <TextView
+                android:id="@+id/confirm_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:textSize="@dimen/font_size_50pt"
+                android:textColor="@android:color/black"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_below="@id/confirm_title_frame"
+            android:layout_marginTop="@dimen/xxh_80px"
+            android:layout_width="wrap_content"
+            android:minWidth="@dimen/xxh_600px"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/confirm_title_frame"
+            android:layout_alignRight="@id/confirm_title_frame"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/confirm_btn_left"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/xxh_200px"
+                android:layout_weight="1"
+                android:background="@drawable/button"/>
+
+            <Button
+                android:id="@+id/confirm_btn_right"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/xxh_200px"
+                android:layout_weight="1"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
